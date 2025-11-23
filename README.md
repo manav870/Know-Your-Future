@@ -22,24 +22,9 @@ Click the button → Watch your palm get scanned by mysterious glowing lines →
 
 ### Step 1: Get Your Palm Ready! 🖐️
 
-1. Find a palm (yours works best, but we won't judge if you borrow one)
-2. Take a photo or find a palm image online
-3. Save it as `palm.png` in the `assets/` folder
-4. Make sure it's clear enough that our "advanced scanning technology" can see it
+ Find a palm (yours works best, but we won't judge if you borrow one)
 
 **Pro Tip:** If your palm is blurry, the future might come out blurry too! 📸
-
-### Step 2: Prepare Your "Future" 🎥
-
-1. Get a video (any video - could be a cat video, could be your future self, we don't judge)
-2. Save it as `future-video.mp4` in the `assets/` folder
-3. Make it interesting! This is YOUR future we're talking about!
-
-**Fun Ideas:**
-- A video of you winning at life
-- A compilation of your best moments
-- A cat doing something hilarious
-- Literally anything that makes you smile
 
 ### Step 3: Open the Magic Portal 🌟
 
@@ -69,10 +54,6 @@ Click the button → Watch your palm get scanned by mysterious glowing lines →
 ---
 
 ## 🐛 "Help! It's Broken!" (Troubleshooting for Mere Mortals)
-
-**"My palm isn't showing!"**
-- Did you actually add the palm.png file? Check the `assets/` folder!
-- Is it named exactly `palm.png`? Computers are picky like that.
 
 **"The video won't play!"**
 - Is it an MP4 file? We're not fancy enough for other formats yet.
