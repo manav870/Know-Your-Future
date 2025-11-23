@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your Future</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Initial Button -->
+        <button id="knowFutureBtn" class="know-future-btn">
+            <span class="btn-text">Know Your Future</span>
+            <span class="btn-glow"></span>
+        </button>
+
+        <!-- Palm Display Section -->
+        <div id="palmSection" class="palm-section hidden">
+            <div class="palm-container">
+                <img id="palmImage" src="assets/palm.png" alt="Palm" class="palm-image">
+                
+                <!-- Scanning Animation Overlay -->
+                <div class="scanning-overlay">
+                    <div class="scan-line"></div>
+                    <div class="scan-grid">
+                        <div class="grid-line horizontal"></div>
+                        <div class="grid-line horizontal"></div>
+                        <div class="grid-line horizontal"></div>
+                        <div class="grid-line vertical"></div>
+                        <div class="grid-line vertical"></div>
+                        <div class="grid-line vertical"></div>
+                    </div>
+                    <div class="particles">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="scan-circle"></div>
+                    <div class="scan-pulse"></div>
+                </div>
+
+                <!-- Scanning Text -->
+                <div class="scanning-text">
+                    <span class="text-glow">Scanning...</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Section -->
+        <div id="videoSection" class="video-section hidden">
+            <div class="video-container">
+                <video id="futureVideo" class="future-video" autoplay controls>
+                    <source src="assets/future-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
